@@ -12,6 +12,9 @@
 		54013920222BFB1F00D3A671 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5401391E222BFB1F00D3A671 /* Main.storyboard */; };
 		54013922222BFB2200D3A671 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54013921222BFB2200D3A671 /* Assets.xcassets */; };
 		54013925222BFB2200D3A671 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54013923222BFB2200D3A671 /* LaunchScreen.storyboard */; };
+		5401392D222BFFC200D3A671 /* BeaconManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5401392C222BFFC200D3A671 /* BeaconManager.swift */; };
+		5401392F222C0ABA00D3A671 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5401392E222C0ABA00D3A671 /* File.swift */; };
+		54013933222C4AAD00D3A671 /* BeaconCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54013932222C4AAD00D3A671 /* BeaconCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		54013921222BFB2200D3A671 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54013924222BFB2200D3A671 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54013926222BFB2200D3A671 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5401392C222BFFC200D3A671 /* BeaconManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconManager.swift; sourceTree = "<group>"; };
+		5401392E222C0ABA00D3A671 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		54013932222C4AAD00D3A671 /* BeaconCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				54013921222BFB2200D3A671 /* Assets.xcassets */,
 				54013923222BFB2200D3A671 /* LaunchScreen.storyboard */,
 				54013926222BFB2200D3A671 /* Info.plist */,
+				5401392C222BFFC200D3A671 /* BeaconManager.swift */,
+				5401392E222C0ABA00D3A671 /* File.swift */,
+				54013932222C4AAD00D3A671 /* BeaconCell.swift */,
 			);
 			path = BeaconManager;
 			sourceTree = "<group>";
@@ -135,7 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5401392D222BFFC200D3A671 /* BeaconManager.swift in Sources */,
+				5401392F222C0ABA00D3A671 /* File.swift in Sources */,
 				5401391D222BFB1F00D3A671 /* ViewController.swift in Sources */,
+				54013933222C4AAD00D3A671 /* BeaconCell.swift in Sources */,
 				5401391B222BFB1F00D3A671 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
